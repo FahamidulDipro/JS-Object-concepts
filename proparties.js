@@ -15,6 +15,12 @@ console.log(keys);
 console.log(values);
 console.log(entities);
 
+
+
+//Prevent from deleting
+Object.seal(bottle);
+console.log(bottle);
+
 //Deleting object property
 delete bottle.isCleaned;
 console.log(bottle);
