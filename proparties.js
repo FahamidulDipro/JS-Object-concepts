@@ -14,3 +14,7 @@ const entities = Object.entries(bottle);
 console.log(keys);
 console.log(values);
 console.log(entities);
+
+//Deleting object property
+delete bottle.isCleaned;
+console.log(bottle);
