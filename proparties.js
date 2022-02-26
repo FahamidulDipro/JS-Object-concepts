@@ -24,3 +24,8 @@ console.log(bottle);
 //Deleting object property
 delete bottle.isCleaned;
 console.log(bottle);
+
+//Freezing object (Prevents object proparties from changing values)
+Object.freeze(bottle);
+bottle.price = 150;
+console.log(bottle);
